@@ -1,7 +1,8 @@
 python train.py --data_dir  ./docred_data \
 --transformer_type bert \
 --model_name_or_path bert-base-cased \
---save_path checkpoints/bert-annotated.pt \
+--save_path checkpoints/bert-teacher.pt \
+--save_last checkpoints/bert-teacher-last.pt \
 --train_file train_annotated.json \
 --dev_file dev.json \
 --test_file test.json \

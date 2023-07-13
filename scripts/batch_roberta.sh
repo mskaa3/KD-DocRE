@@ -1,8 +1,8 @@
 python train.py --data_dir ./docred_data \
 --transformer_type roberta \
 --model_name_or_path roberta-large \
---save_path checkpoints/roberta-model.pt \
---save_last checkpoints/roberta-model-last.pt \
+--save_path checkpoints/roberta-teacher.pt \
+--save_last checkpoints/roberta-teacher-last.pt \
 --train_file train_annotated.json \
 --dev_file dev.json \
 --test_file dev.json \
