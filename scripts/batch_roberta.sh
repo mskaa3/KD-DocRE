@@ -6,7 +6,7 @@ python train.py --data_dir ./docred_data \
 --train_file train_annotated.json \
 --dev_file dev.json \
 --test_file dev.json \
---train_batch_size 4 \
+--train_batch_size 2 \
 --test_batch_size 2 \
 --gradient_accumulation_steps 1 \
 --num_labels 4 \
