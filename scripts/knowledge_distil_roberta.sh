@@ -1,4 +1,4 @@
-python train.py --data_dir docred_data/ \
+python train.py --data_dir ./docred_data \
 --transformer_type roberta \
 --model_name_or_path roberta-large \
 --knowledge_distil best_checkpoints/roberta-pre-trained-1.pt \

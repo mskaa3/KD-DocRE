@@ -1,4 +1,4 @@
-python train.py --data_dir  docred_data \
+python train.py --data_dir  ./docred_data \
 --transformer_type bert \
 --model_name_or_path bert-base-cased \
 --load_path checkpoints/{model_name} \
